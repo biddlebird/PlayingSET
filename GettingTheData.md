@@ -1,6 +1,5 @@
-# PlayingSET
-Teaching my computer how to play the game of SET using machine learning
-
+# Before you start!
+please download the data from the original creator of the images and flatten the files for TrensorFlow:
 
 # Getting the Data:
 
