@@ -14,8 +14,8 @@ Instead of having **TensorFlow** look for many levels, you can categorize images
 import os
 import shutil
 
-base_dir = '/Users/kaylabiddle/Desktop/PlayingSET/archive-2'
-output_dir = '/Users/kaylabiddle/Desktop/PlayingSET/flattened_images'
+base_dir = 'archive-2'
+output_dir = 'flattened_images'
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
@@ -38,3 +38,7 @@ for number in ['one', 'two', 'three']:
                     img_dest_path = os.path.join(new_dir_path, img_file)
                     shutil.copy(img_source_path, img_dest_path)
 ```
+
+Then you can delete the original data set and continue on with the code using 'flattened_images'
+
+
